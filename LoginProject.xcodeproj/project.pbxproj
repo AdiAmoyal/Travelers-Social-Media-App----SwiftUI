@@ -31,6 +31,9 @@
 		91A584B429A225E7001A3BC3 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A584B329A225E7001A3BC3 /* Header.swift */; };
 		91A584B629A26844001A3BC3 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A584B529A26844001A3BC3 /* Loading.swift */; };
 		91A584B829A3AA87001A3BC3 /* Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A584B729A3AA87001A3BC3 /* Corners.swift */; };
+		91A584BA29A3B337001A3BC3 /* HeaderNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A584B929A3B337001A3BC3 /* HeaderNavigationBar.swift */; };
+		91A584BC29A3BF3E001A3BC3 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A584BB29A3BF3E001A3BC3 /* Notifications.swift */; };
+		91A584BE29A3BFA2001A3BC3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A584BD29A3BFA2001A3BC3 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		91A584B329A225E7001A3BC3 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		91A584B529A26844001A3BC3 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		91A584B729A3AA87001A3BC3 /* Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corners.swift; sourceTree = "<group>"; };
+		91A584B929A3B337001A3BC3 /* HeaderNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderNavigationBar.swift; sourceTree = "<group>"; };
+		91A584BB29A3BF3E001A3BC3 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		91A584BD29A3BFA2001A3BC3 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 				91A584B329A225E7001A3BC3 /* Header.swift */,
 				91A584B529A26844001A3BC3 /* Loading.swift */,
 				91A584B729A3AA87001A3BC3 /* Corners.swift */,
+				91A584B929A3B337001A3BC3 /* HeaderNavigationBar.swift */,
+				91A584BB29A3BF3E001A3BC3 /* Notifications.swift */,
+				91A584BD29A3BFA2001A3BC3 /* SearchBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,8 +249,10 @@
 			files = (
 				91A584B2299E9D0D001A3BC3 /* FirebaseModel.swift in Sources */,
 				91A584B429A225E7001A3BC3 /* Header.swift in Sources */,
+				91A584BA29A3B337001A3BC3 /* HeaderNavigationBar.swift in Sources */,
 				9191EA83299D62FF00F029E1 /* CustomTextField.swift in Sources */,
 				91A584A7299E67A1001A3BC3 /* Colors.swift in Sources */,
+				91A584BE29A3BFA2001A3BC3 /* SearchBar.swift in Sources */,
 				91A584B629A26844001A3BC3 /* Loading.swift in Sources */,
 				9191EA81299D617500F029E1 /* Login.swift in Sources */,
 				9191EA68299D557100F029E1 /* ContentView.swift in Sources */,
@@ -250,6 +261,7 @@
 				9191EA85299D643B00F029E1 /* LoginViewModel.swift in Sources */,
 				91A58482299E1AD2001A3BC3 /* SignUp.swift in Sources */,
 				9191EA66299D557100F029E1 /* LoginProjectApp.swift in Sources */,
+				91A584BC29A3BF3E001A3BC3 /* Notifications.swift in Sources */,
 				91A58484299E3E49001A3BC3 /* AuthViewModel.swift in Sources */,
 				91A584B829A3AA87001A3BC3 /* Corners.swift in Sources */,
 				91A584B0299E9874001A3BC3 /* User.swift in Sources */,

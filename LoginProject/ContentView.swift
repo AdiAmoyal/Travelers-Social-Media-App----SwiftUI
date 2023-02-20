@@ -8,19 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var authModel: AuthViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Group {
+            if authModel.user != nil {
+                Home()
+            } else {
+                Login()
+            }
         }
-        .padding()
+        .onAppear {
+            authModel.listenToAuthState()
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
